@@ -1,10 +1,8 @@
 /node_modules
 
 
-/vendor
 .vscode
 .idea
-.env
 .env.backup
 .phpunit.result.cache
 Homestead.json
