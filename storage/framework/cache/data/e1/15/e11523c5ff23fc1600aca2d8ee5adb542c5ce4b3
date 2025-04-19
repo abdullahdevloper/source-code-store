@@ -1,1 +1,1 @@
-1745098670a:2:{i:0;a:6:{s:2:"id";s:1:"1";s:4:"name";s:7:"english";s:9:"direction";s:3:"ltr";s:4:"code";s:2:"en";s:6:"status";i:1;s:7:"default";b:0;}i:1;a:6:{s:2:"id";i:3;s:4:"name";s:6:"arabic";s:9:"direction";s:3:"rtl";s:4:"code";s:2:"sa";s:6:"status";i:1;s:7:"default";b:1;}}
+1745097955a:2:{i:0;a:6:{s:2:"id";s:1:"1";s:4:"name";s:7:"english";s:9:"direction";s:3:"ltr";s:4:"code";s:2:"en";s:6:"status";i:1;s:7:"default";b:0;}i:1;a:6:{s:2:"id";i:3;s:4:"name";s:6:"arabic";s:9:"direction";s:3:"rtl";s:4:"code";s:2:"sa";s:6:"status";i:1;s:7:"default";b:1;}}
