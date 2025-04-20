@@ -32,22 +32,7 @@
                                 <div class="progress-bar progress-bar-animated">{{translate('0').'%'}}</div>
                             </div>
 
-                            <div class="row">
-                                <div class="col-6">
-                                    <div class="form-group">
-                                        <label for="purchase_code">{{translate('codecanyon_username')}}</label>
-                                        <input type="text" class="form-control" id="username" value="{{env('BUYER_USERNAME')}}"
-                                               name="username" required>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="form-group">
-                                        <label for="purchase_code">{{translate('purchase_code')}}</label>
-                                        <input type="text" class="form-control" id="purchase_key"
-                                               value="{{env('PURCHASE_CODE')}}" name="purchase_key" required>
-                                    </div>
-                                </div>
-                            </div>
+                   
                             <div class="row">
                                 <div class="col-12 mb-3">
                                     <div class="custom-file text-left">

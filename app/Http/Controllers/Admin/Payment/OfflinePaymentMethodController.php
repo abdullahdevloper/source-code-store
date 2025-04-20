@@ -69,6 +69,9 @@ class OfflinePaymentMethodController extends BaseController
     public function add(OfflinePaymentMethodRequest $request):JsonResponse
     {
         $methodInformation = $this->offlinePaymentMethodService->getMethodInformationData(request:$request);
+    
+        
+        // dd();
         if(!is_array($methodInformation) && $methodInformation === false){
             return response()->json([
                 'status' => 0,

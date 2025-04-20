@@ -117,22 +117,7 @@
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="col-md-6 col-12">
-                            <div class="form-group">
-                                <label class="title-color d-flex">{{translate('buyer_username')}}</label>
-                                <input type="text" value="{{ env('BUYER_USERNAME') }}" class="form-control" placeholder="{{translate('6valley-admin-demo-jhisdfhisufjifjfijqw5467')}}" disabled>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-12">
-                            <div class="form-group" id="purchase_code_div">
-                                <label class="title-color d-flex">{{translate('purchase_code')}}</label>
-                                <div class="input-icons">
-                                    <input type="password" value="{{ env('PURCHASE_CODE') }}" class="form-control" id="purchase_code" placeholder="{{translate('00000000000000')}}" disabled>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                 
                     <div class="d-flex justify-content-end flex-wrap gap-3">
                         <button type="reset" class="btn btn-secondary px-5">{{translate('reset')}}</button>
                         <button type="{{env('APP_MODE')!='demo'?'submit':'button'}}"

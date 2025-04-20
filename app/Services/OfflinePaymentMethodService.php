@@ -13,7 +13,7 @@ class OfflinePaymentMethodService
         {
             foreach ($request->input_name as $key => $field_name) {
                 $methodFields[] = [
-                    'input_name' => strtolower(str_replace("'", '', preg_replace('/[^a-zA-Z0-9\']/', '_', $request->input_name[$key]))),
+                    'input_name' =>  $request->input_name[$key],
                     'input_data' => $request->input_data[$key],
                 ];
             }
@@ -26,8 +26,9 @@ class OfflinePaymentMethodService
         if($request->has('customer_input'))
         {
             foreach ($request->customer_input as $key => $field_name) {
-                $input_key = strtolower(str_replace("'", '', preg_replace('/[^a-zA-Z0-9\']/', '_', $request->customer_input[$key])));
-
+                $input_key = $request->customer_input[$key];
+                info($input_key);
+                // info($methodInformation);
                 $keyExists = false;
                 foreach ($methodInformation as $info) {
                     if ($info['customer_input'] === $input_key) {

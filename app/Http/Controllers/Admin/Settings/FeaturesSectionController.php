@@ -96,25 +96,25 @@ class FeaturesSectionController extends BaseController
         $data = [
             [
                 'item' => 'delivery_info',
-                'title' => 'Fast Delivery all across the country',
+                'title' => 'توصيل سريع في الداخل وفي الخارج',
                 'image' => '',
                 'status' => 0,
             ],
             [
                 'item' => 'safe_payment',
-                'title' => 'Safe Payment',
+                'title' => 'الدفع الآمن',
                 'image' => '',
                 'status' => 0,
             ],
             [
                 'item' => 'return_policy',
-                'title' => '7 Days Return Policy',
+                'title' => 'سياسة الإرجاع خلال 7 أيام',
                 'image' => '',
                 'status' => 0,
             ],
             [
                 'item' => 'authentic_product',
-                'title' => '100% Authentic Products',
+                'title' => 'ضمان المنتجات',
                 'image' => '',
                 'status' => 0,
             ],

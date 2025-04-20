@@ -3770,7 +3770,7 @@ return [
 "code_must_be_minimum_6_digits!"=>"يجب أن يكون الرمز مكونًا من 6 أرقام على الأقل!",
 "code_must_be_positive!"=>"يجب أن يكون الرمز إيجابيًا!",
 "code_with_a_minimum_length_requirement_of_6_characters"=>"رمز مع متطلب الحد الأدنى للطول 6 أحرف",
-"codecanyon_username"=>"اسم المستخدم في كودكانون",
+"codecanyon_username"=>"اسم المستخدم ",
 "collect_Cash"=>"جمع النقود",
 "collect_cash"=>"جمع النقود",
 "collect_coupons_from_stores_and_apply_to_get_special_discount_from_stores"=>"جمع القسائم من المتاجر وتطبيقها للحصول على خصم خاص من المتاجر",
