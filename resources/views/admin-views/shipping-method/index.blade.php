@@ -201,7 +201,7 @@
                     <form action="{{route('admin.business-settings.shipping-method.index')}}" method="post">
                         @csrf
                         <div class="row">
-                            <div class="col-xl-4 col-md-6">
+                            <div class="col-xl-3 col-md-6">
                                 <div class="form-group">
                                     <div class="row justify-content-center">
                                         <div class="col-md-12">
@@ -212,7 +212,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-4 col-md-6">
+                            <div class="col-xl-3 col-md-6">
                                 <div class="form-group">
                                     <div class="row justify-content-center">
                                         <div class="col-md-12">
@@ -225,13 +225,24 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-4 col-md-6">
+                            <div class="col-xl-3 col-md-6">
                                 <div class="form-group">
                                     <div class="row justify-content-center">
                                         <div class="col-md-12">
                                             <label class="title-color d-flex" for="cost">{{translate('cost')}}</label>
                                             <input type="number" min="0" step="0.01" max="1000000" name="cost"
-                                                   class="form-control" placeholder="{{translate('ex')}} :" required>
+                                                   class="form-control" placeholder="{{translate('ex')}} :70" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="form-group">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-12">
+                                            <label class="title-color d-flex" for="cost_per_products">{{translate('cost_per_products')}}</label>
+                                            <input type="number" min="0" step="0.01" max="1000000" name="cost_per_products"
+                                                   class="form-control" placeholder="{{translate('ex')}} : 10" required>
                                         </div>
                                     </div>
                                 </div>

@@ -48,6 +48,17 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="form-group">
+                            <div class="row ">
+                                <div class="col-md-12">
+                                    <label class="title-color" for="cost_per_products">{{translate('cost_per_products')}}</label>
+                                    <input type="number" min="0" max="1000000" name="cost_per_products"
+                                           value="{{usdToDefaultCurrency(amount: $method['cost_per_products'])}}"
+                                           class="form-control"
+                                           placeholder="{{translate('ex').' '.':'.' '.translate('10')}}$">
+                                </div>
+                            </div>
+                        </div>
                         <div class="d-flex gap-10 flex-wrap justify-content-end">
                             <button type="submit" class="btn btn--primary px-4">{{translate('update')}}</button>
                         </div>

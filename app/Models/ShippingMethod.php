@@ -34,6 +34,7 @@ class ShippingMethod extends Model
         'creator_type',
         'title',
         'cost',
+        'cost_per_products',
         'duration',
         'status',
     ];
@@ -46,6 +47,8 @@ class ShippingMethod extends Model
     protected $casts = [
         'status' => 'boolean',
         'cost' => 'float:2',
+        'cost_per_products' => 'float:2',
+
     ];
 
     public function seller():BelongsTo

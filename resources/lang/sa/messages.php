@@ -3895,6 +3895,8 @@ return [
 	"copyright_content"=> "محتوى حقوق النشر",
 	"cost"=> "التكلفة",
 	"cost_per_product"=> "التكلفة لكل منتج",
+	"cost_per_products"=> "التكلفة الاضافية لكل منتج",
+
 	"country"=> "البلد",
 	"country_code"=> "رمز البلد",
 	"country_code_is_must"=> "رمز البلد إلزامي",

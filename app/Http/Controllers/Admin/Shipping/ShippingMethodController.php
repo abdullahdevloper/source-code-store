@@ -95,6 +95,7 @@ class ShippingMethodController extends BaseController
      */
     public function add(ShippingMethodRequest $request): RedirectResponse
     {
+        // dd();
         $this->shippingMethodRepo->add($this->shippingMethodService->addShippingMethodData(request: $request, addedBy: 'admin'));
         Toastr::success(translate('successfully_added'));
         return redirect()->back();
@@ -118,6 +119,7 @@ class ShippingMethodController extends BaseController
     {
         if ($id != 1) {
             $method = $this->shippingMethodRepo->getFirstWhere(params: ['id' => $id]);
+            info($method);
             return view(ShippingMethod::UPDATE[VIEW], compact('method'));
         }
         return back();
