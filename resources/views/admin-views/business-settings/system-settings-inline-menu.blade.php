@@ -16,9 +16,6 @@
             <a href="{{route('admin.business-settings.web-config.app-settings')}}">{{translate('app_Settings')}}</a>
         </li>
 
-        <li class="{{ Request::is('admin/system-settings/'.SoftwareUpdate::VIEW[URI]) ?'active':'' }}">
-            <a href="{{route('admin.system-settings.software-update')}}">{{translate('software_Update')}}</a>
-        </li>
         <li class="{{ Request::is('admin/business-settings/language') ?'active':'' }}">
             <a href="{{route('admin.business-settings.language.index')}}">{{translate('language')}}</a>
         </li>

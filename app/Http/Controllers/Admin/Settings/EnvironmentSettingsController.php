@@ -30,7 +30,7 @@ class EnvironmentSettingsController extends BaseController
 
     public function getView(): View
     {
-        return view(EnvironmentSettings::VIEW[VIEW]);
+        return view('admin-views.business-settings.environment-index');
     }
 
     public function update(Request $request): RedirectResponse

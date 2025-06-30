@@ -1,8 +1,8 @@
 /*---------------------------------------------
-	Template name:  6valley Grocery
+	Template name:  optical Grocery
 	Version:        1.0
 	Author:         6amtech
-	Author url:     https://6amtech.com/
+	Author url:     https://optical.com/
 
 NOTE:
 ------

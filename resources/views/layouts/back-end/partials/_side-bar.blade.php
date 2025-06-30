@@ -1174,18 +1174,7 @@
                                             </span>
                                         </a>
                                     </li>
-                                    <li class="nav-item {{
-                                        Request::is('admin/addon') ||
-                                        Request::is('admin/business-settings/web-config/theme/'.ThemeSetup::VIEW[URI]) ? 'active' : ''}}"
-                                    >
-                                        <a class="nav-link" href="{{ route('admin.business-settings.web-config.theme.setup') }}"
-                                           title="{{translate('themes_&_Addons')}}">
-                                            <span class="tio-circle nav-indicator-icon"></span>
-                                            <span class="text-truncate">
-                                              {{translate('themes_&_Addons')}}
-                                            </span>
-                                        </a>
-                                    </li>
+                                  
                                     <li class="nav-item {{Request::is('admin/business-settings/email-templates/*') ? 'active' : ''}}">
                                         <a class="nav-link" href="{{route('admin.business-settings.email-templates.view',['admin',EmailTemplateKey::ADMIN_EMAIL_LIST[0]])}}"
                                            title="{{translate('in-house_Shop')}}">
